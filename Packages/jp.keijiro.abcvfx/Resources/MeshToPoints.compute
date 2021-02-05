@@ -56,7 +56,7 @@ void Convert(uint2 id : SV_DispatchThreadID)
 
     uint tw, th;
     BaseTexture.GetDimensions(tw, th);
-    uint2 sp = float2(uvc.x, 1 - uvc.y) * uint2(tw, th) + 0.5;
+    uint2 sp = float2(uvc.x, uvc.y) * uint2(tw, th) + 0.5;  //fix the color index erro for abc file
     float4 c = LinearToSRGB(BaseTexture[sp]);
 
     // Output
