@@ -1,6 +1,8 @@
 Abcvfx
 ======
 
+修改了abc颜色贴图index不对的问题
+
 ![gif](https://i.imgur.com/KFuE0uJ.gif)
 ![gif](https://i.imgur.com/el5ZkKX.gif)
 
